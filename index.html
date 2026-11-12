@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallo, I'm Bintang</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- HEADER -->
+    <header class="bg-slate-900 text-white px-8 py-5 flex justify-between items-center">
+        <h2 class="text-2xl font-bold">Bintang.</h2>
+        <nav class="flex gap-6">
+            <a href="#home" class="hover:text-blue-400">Home</a>
+            <a href="#about" class="hover:text-blue-400">About</a>
+            <a href="#contact" class="hover:text-blue-400">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="min-h-screen px-8 md:px-20 py-20 flex flex-col md:flex-row justify-between items-center gap-10">
+        <div class="max-w-xl">
+            <p class="text-blue-600 font-semibold mb-3">WELCOME TO MY WEBSITE</p>
+            <h1 class="text-4xl md:text-6xl font-bold text-slate-900 mb-6">
+                Hallo, I'm Bintang
+            </h1>
+            <p class="text-lg text-gray-600 leading-relaxed mb-8">
+                Welcome to my personal website. I'm a student who loves
+                learning, exploring new things, and developing new skills
+                in technology.
+            </p>
+            <a href="#about" class="bg-blue-600 text-white px-7 py-3 rounded-lg hover:bg-blue-800">
+                About Me
+            </a>
+        </div>
+
+        <img src="https://placehold.co/350x400?text=Camera"
+             alt="Ilustrasi kamera"
+             class="w-72 md:w-80 rounded-2xl shadow-xl">
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="bg-white px-8 md:px-20 py-20">
+        <h2 class="text-3xl font-bold text-center mb-10">About Me</h2>
+        <div class="max-w-3xl mx-auto text-center">
+            <p class="text-gray-600 text-lg leading-relaxed">
+                Hello! My name is Bintang. I am a student who is interested
+                in technology and website development. This website is my
+                learning project to understand HTML and Tailwind CSS.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="px-8 md:px-20 py-20 text-center">
+        <h2 class="text-3xl font-bold mb-5">Contact</h2>
+        <p class="text-gray-600 mb-6">Thank you for visiting my website!</p>
+        <a href="mailto:email@example.com"
+           class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-800">
+            Send Email
+        </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-white text-center py-6">
+        <p>&copy; 2026 Bintang. All Rights Reserved.</p>
+        <p class="text-gray-400 text-sm mt-2">Built with HTML and Tailwind CSS</p>
+    </footer>
+
+</body>
+</html>

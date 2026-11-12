@@ -1,0 +1,162 @@
+
+/* PENGATURAN DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4f6fa;
+    color: #263445;
+}
+
+/* HEADER */
+header {
+    background-color: #172b4d;
+    color: white;
+    padding: 20px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #64c7ff;
+}
+
+/* BODY - HOME */
+.home {
+    min-height: 450px;
+    padding: 60px 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    background-color: #e8f0fa;
+}
+
+.intro {
+    max-width: 550px;
+}
+
+.intro h1 {
+    font-size: 42px;
+    color: #172b4d;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #172b4d;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #315b91;
+}
+
+/* GAMBAR KAMERA */
+.camera img {
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* BODY - ABOUT */
+.about {
+    background-color: white;
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    color: #172b4d;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* FOOTER */
+footer {
+    background-color: #172b4d;
+    color: white;
+    padding: 40px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer h3 {
+    color: #64c7ff;
+    margin-bottom: 12px;
+}
+
+footer p {
+    line-height: 1.8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro h1 {
+        font-size: 30px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
